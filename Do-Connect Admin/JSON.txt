@@ -1,0 +1,56 @@
+
+
+{
+  "password": "owner123",
+  "uname": "owner"
+}
+
+For register as a User
+
+{
+  "username": "ravi",
+  "password": "ravi"
+}
+{
+  "username": "niti",
+  "password": "niti"
+}
+
+ For Login as a user
+ 
+{
+  "username": "niti",
+  "password": "niti"
+}
+
+{
+  "username": "ravi",
+  "password": "ravi"
+}
+
+Ask Question By a User 
+
+{
+  "topic": "Pyhsics",
+  "content": "How many Newton's Law of Motion?"
+}
+{
+  "topic": "Computer Science",
+  "content": "What is OOPS Concept?"
+}
+{
+  "topic": "Computer Science",
+  "content": "What is Exception Handling?"
+}
+{
+  "topic": "General Knowledge",
+  "content": "Who is the current PM of India?"
+}
+
+
+Adding Ans to Question with id
+
+{
+  "content": "Newton's laws of motion are three laws that describe the relationship between the motion of an object and the forces acting on it. ",
+  "questionId": 1
+}

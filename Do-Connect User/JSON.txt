@@ -1,0 +1,73 @@
+
+For register as a User
+
+{
+  "username": "ravi",
+  "password": "ravi"
+}
+{
+  "username": "niti",
+  "password": "niti"
+}
+
+ For Login as a user
+ 
+{
+  "username": "niti",
+  "password": "niti"
+}
+
+{
+  "username": "ravi",
+  "password": "ravi"
+}
+
+Ask Question By a User 
+
+{
+  "topic": "Java Technology",
+  "content": "What is meant by Encapsulation?"
+}
+{
+  "topic": "Computer Science",
+  "content": "What is Exception Handling?"
+}
+{
+  "topic": "Object Oriented Programming",
+  "content": "Why is Java called Partially oriented programming language?"
+}
+ 
+{
+  "topic": "JSP Servlets",
+  "content": "Difference between JSP AND Servlets."
+}
+
+
+{
+  "topic": "Pyhsics",
+  "content": "How many Newton's Law of Motion?"
+}
+{
+  "topic": "Computer Science",
+  "content": "What is OOPS Concept?"
+}
+{
+  "topic": "Computer Science",
+  "content": "What is Exception Handling?"
+}
+{
+  "topic": "General Knowledge",
+  "content": "Who is the current PM of India?"
+}
+
+
+Adding Ans to Question with id
+
+{
+  "content": "Newton's laws of motion are three laws that describe the relationship between the motion of an object and the forces acting on it. ",
+  "questionId": 1
+}
+{
+  "content": "Exception handling is a critical aspect of programming, enabling developers to manage unexpected or erroneous situations gracefully. ",
+  "questionId": 1
+}
