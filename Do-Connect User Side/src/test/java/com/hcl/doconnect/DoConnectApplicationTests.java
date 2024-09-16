@@ -31,40 +31,24 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 
 import org.springframework.http.ResponseEntity;
- 
-import com.hcl.doconnect.controller.ApiResponse;
 
-import com.hcl.doconnect.controller.UserController;
-
-import com.hcl.doconnect.dto.AnswerDTO;
-
-import com.hcl.doconnect.dto.CommentDTO;
-
-import com.hcl.doconnect.dto.QuestionDTO;
-
-import com.hcl.doconnect.dto.QuestionDetailsDTO;
-
-import com.hcl.doconnect.exception.AnswerNotFoundException;
-
-import com.hcl.doconnect.exception.QuestionNotFoundException;
-
-import com.hcl.doconnect.exception.UnauthorizedException;
-
-import com.hcl.doconnect.model.Answer;
-
-import com.hcl.doconnect.model.Comment;
-
-import com.hcl.doconnect.model.Question;
-
-import com.hcl.doconnect.model.User;
-
-import com.hcl.doconnect.service.AnswerService;
-
-import com.hcl.doconnect.service.QuestionService;
-
-import com.hcl.doconnect.service.UserService;
-
-import com.hcl.doconnect.util.JwtUtil;
+import com.scoe.doconnect.controller.ApiResponse;
+import com.scoe.doconnect.controller.UserController;
+import com.scoe.doconnect.dto.AnswerDTO;
+import com.scoe.doconnect.dto.CommentDTO;
+import com.scoe.doconnect.dto.QuestionDTO;
+import com.scoe.doconnect.dto.QuestionDetailsDTO;
+import com.scoe.doconnect.exception.AnswerNotFoundException;
+import com.scoe.doconnect.exception.QuestionNotFoundException;
+import com.scoe.doconnect.exception.UnauthorizedException;
+import com.scoe.doconnect.model.Answer;
+import com.scoe.doconnect.model.Comment;
+import com.scoe.doconnect.model.Question;
+import com.scoe.doconnect.model.User;
+import com.scoe.doconnect.service.AnswerService;
+import com.scoe.doconnect.service.QuestionService;
+import com.scoe.doconnect.service.UserService;
+import com.scoe.doconnect.util.JwtUtil;
 
 @ExtendWith(MockitoExtension.class)
 @SpringBootTest

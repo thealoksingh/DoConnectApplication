@@ -20,14 +20,11 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 
 import org.mockito.MockitoAnnotations;
- 
-import com.hcl.doconnect.model.Answer;
 
-import com.hcl.doconnect.model.Question;
-
-import com.hcl.doconnect.model.User;
-
-import com.hcl.doconnect.repository.AnswerRepository;
+import com.scoe.doconnect.model.Answer;
+import com.scoe.doconnect.model.Question;
+import com.scoe.doconnect.model.User;
+import com.scoe.doconnect.repository.AnswerRepository;
 
  class AnswerRepositoryTest {
 

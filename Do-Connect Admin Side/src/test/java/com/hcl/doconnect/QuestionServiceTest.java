@@ -13,13 +13,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.hcl.doconnect.exception.QuestionNotFoundException;
-import com.hcl.doconnect.model.Question;
-import com.hcl.doconnect.model.User;
-import com.hcl.doconnect.repository.AnswerRepository;
-import com.hcl.doconnect.repository.CommentRepository;
-import com.hcl.doconnect.repository.QuestionRepository;
-import com.hcl.doconnect.service.QuestionService;
+import com.scoe.doconnect.exception.QuestionNotFoundException;
+import com.scoe.doconnect.model.Question;
+import com.scoe.doconnect.model.User;
+import com.scoe.doconnect.repository.AnswerRepository;
+import com.scoe.doconnect.repository.CommentRepository;
+import com.scoe.doconnect.repository.QuestionRepository;
+import com.scoe.doconnect.service.QuestionService;
 
 @SpringBootTest
 public class QuestionServiceTest {

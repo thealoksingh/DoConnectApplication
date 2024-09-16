@@ -22,15 +22,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import com.hcl.doconnect.controller.AdminController;
-import com.hcl.doconnect.controller.ApiResponse;
-import com.hcl.doconnect.dto.UpdateUserDTO;
-import com.hcl.doconnect.exception.QuestionNotFoundException;
-import com.hcl.doconnect.exception.UserNotFoundException;
-import com.hcl.doconnect.model.Question;
-import com.hcl.doconnect.model.User;
-import com.hcl.doconnect.service.QuestionService;
-import com.hcl.doconnect.service.UserService;
+import com.scoe.doconnect.controller.AdminController;
+import com.scoe.doconnect.controller.ApiResponse;
+import com.scoe.doconnect.dto.UpdateUserDTO;
+import com.scoe.doconnect.exception.QuestionNotFoundException;
+import com.scoe.doconnect.exception.UserNotFoundException;
+import com.scoe.doconnect.model.Question;
+import com.scoe.doconnect.model.User;
+import com.scoe.doconnect.service.QuestionService;
+import com.scoe.doconnect.service.UserService;
 	 
 @SpringBootTest
 	 class DoConnectApplicationTests {

@@ -32,20 +32,14 @@ import org.mockito.Mock;
 
 import org.mockito.MockitoAnnotations;
 
-import com.hcl.doconnect.exception.AnswerNotFoundException;
-
-import com.hcl.doconnect.model.Answer;
-
-import com.hcl.doconnect.model.Like;
-
-import com.hcl.doconnect.model.Question;
-
-import com.hcl.doconnect.repository.AnswerRepository;
-
-import com.hcl.doconnect.repository.LikeRepository;
-
-import com.hcl.doconnect.repository.QuestionRepository;
-import com.hcl.doconnect.service.AnswerServiceImpl;
+import com.scoe.doconnect.exception.AnswerNotFoundException;
+import com.scoe.doconnect.model.Answer;
+import com.scoe.doconnect.model.Like;
+import com.scoe.doconnect.model.Question;
+import com.scoe.doconnect.repository.AnswerRepository;
+import com.scoe.doconnect.repository.LikeRepository;
+import com.scoe.doconnect.repository.QuestionRepository;
+import com.scoe.doconnect.service.AnswerServiceImpl;
 
 
  class AnswerServiceTest {

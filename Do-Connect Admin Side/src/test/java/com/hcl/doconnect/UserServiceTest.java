@@ -18,9 +18,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.hcl.doconnect.model.User;
-import com.hcl.doconnect.repository.UserRepository;
-import com.hcl.doconnect.service.UserService;
+import com.scoe.doconnect.model.User;
+import com.scoe.doconnect.repository.UserRepository;
+import com.scoe.doconnect.service.UserService;
  
 @SpringBootTest
 public class UserServiceTest {
